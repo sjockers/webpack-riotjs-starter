@@ -10,7 +10,7 @@
 
   <output>{ value }</output>
 
-  <script type="babel">
+  <script type="es6">
     this.update({value: this.opts.intialValue})
 
     this.onInput = (event) => {
