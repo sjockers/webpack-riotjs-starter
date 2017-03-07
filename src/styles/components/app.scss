@@ -1,0 +1,15 @@
+#{$root} {
+  background: $background-color;
+
+  @include mq($from: sm) {
+    background: $primary-color;
+  }
+
+  @include mq($from: md) {
+    background: $secondary-color;
+  }
+
+  @include mq($from: lg) {
+    background: $accent-color;
+  }
+}
